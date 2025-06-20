@@ -33,7 +33,7 @@ public class Main extends JFrame {
     private static final Color DISABLED_COLOR = new Color(158, 158, 158); // 회색
     
     public Main() {
-        setTitle("습관 추적기");
+        setTitle("이번엔 진짜!");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
