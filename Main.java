@@ -613,7 +613,7 @@ public class Main extends JFrame {
                 }
                 statusPanel.add(statusLabel);
                 
-                // 2️⃣ 달력 날짜 제한: 오늘 이전 날짜까지만 클릭 가능
+                // 달력 날짜 제한: 오늘 이전 날짜까지만 클릭 가능
                 if (!isFutureDate) { // 미래 날짜가 아닌 경우에만 클릭 이벤트 추가
                     panel.addMouseListener(new java.awt.event.MouseAdapter() {
                         @Override
@@ -936,7 +936,7 @@ public class Main extends JFrame {
             
             // 성공 메시지를 잠시 보여주기
             JOptionPane.showMessageDialog(Main.this, 
-                "✅ 습관이 성공적으로 등록되었습니다!", 
+                "습관이 성공적으로 등록되었습니다!", 
                 "등록 완료", 
                 JOptionPane.INFORMATION_MESSAGE);
         });
@@ -952,7 +952,7 @@ public class Main extends JFrame {
         return panel;
     }
     
-    // 1️⃣ 폼 초기화 메서드
+    // 폼 초기화 메서드
     private void refreshAddScreen() {
         // 기존 화면 제거 후 새로 생성하여 폼 초기화
         mainPanel.remove(1);
@@ -1049,11 +1049,11 @@ public class Main extends JFrame {
             sb.append(String.format("연속 달성: %d일\n\n", streakDays));
             
             if (rate >= 80) {
-                sb.append("🎉 훌륭해요! 계속 이어가세요!");
+                sb.append("훌륭해요! 계속 이어가세요!");
             } else if (rate >= 50) {
-                sb.append("👍 좋아요! 조금만 더 힘내세요!");
+                sb.append("좋아요! 조금만 더 힘내세요!");
             } else {
-                sb.append("💪 지금이 시작할 때예요!");
+                sb.append("지금이 시작할 때예요!");
             }
             
             detailArea.setText(sb.toString());
