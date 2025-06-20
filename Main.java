@@ -251,7 +251,7 @@ public class Main extends JFrame {
         
         // 상단 제목과 네비게이션
         JPanel topPanel = new JPanel(new BorderLayout());
-        JLabel titleLabel = new JLabel("습관 추적기", JLabel.CENTER);
+        JLabel titleLabel = new JLabel("이번엔 진짜!", JLabel.CENTER);
         titleLabel.setFont(new Font("맑은 고딕", Font.BOLD, 20));
         titleLabel.setBorder(new EmptyBorder(10, 0, 10, 0));
         
